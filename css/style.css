@@ -66,6 +66,7 @@ p {
 }
 .image {
   width: 400px;
+  border-radius: 10px;
 }
 .icon {
   display: inline-block;
