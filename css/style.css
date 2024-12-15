@@ -1,0 +1,83 @@
+@import url('reset.css');
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  background-color: cadetblue;
+}
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 34px;
+  margin-block: 25px;
+  text-align: center;
+  margin-inline: 15px;
+  padding-block: 15px;
+}
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+footer {
+  text-align: center;
+  font-size: 28px;
+  letter-spacing: 4px;
+  background: linear-gradient(
+    90deg,
+    rgba(186, 171, 40, 1) 18%,
+    rgba(26, 153, 93, 1) 58%,
+    rgba(0, 212, 255, 1) 95%
+  );
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.item-container {
+  background-color: burlywood;
+  border-radius: 10px;
+  margin: 25px;
+  padding-block-end: 15px;
+}
+.item-box {
+  margin-inline: 20px;
+}
+.item-box:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.item-box:first-child {
+  padding-top: 15px;
+}
+.item-box img,
+p {
+  display: inline-block;
+  vertical-align: middle;
+}
+.item-box p::before {
+  content: '-';
+  margin-right: 5px;
+}
+.image {
+  width: 400px;
+}
+.icon {
+  display: inline-block;
+  background-color: #ef6c57;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  padding: 28px;
+}
+/* Не вийшло відцетрувати іконки в овалі по вертикалі, підкажіть, що не так */
+.image-icon {
+  width: 50px;
+}
